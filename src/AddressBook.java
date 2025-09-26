@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 public class AddressBook {
     ArrayList<BuddyInfo> buddies;
 
@@ -23,5 +24,11 @@ public class AddressBook {
         if(location >= 0 && location <= buddies.size()){
             buddies.remove(location);
         }
+    }
+
+    public BuddyInfo randomBuddy(){
+        Random r = new Random();
+        int x = r.nextInt(buddies.size());
+        return buddies.get(x);
     }
 }
