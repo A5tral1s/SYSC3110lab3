@@ -3,11 +3,11 @@ public class BuddyInfo {
     String address;
 
     static final String basename = "Steve";
-    static final String baseaddress = "Carleton";
+    static final String baseAddress = "Carleton";
 
     public BuddyInfo() {
         this.name = basename;
-        this.address = baseaddress;
+        this.address = baseAddress;
     }
 
     public BuddyInfo(String named, String add) {
