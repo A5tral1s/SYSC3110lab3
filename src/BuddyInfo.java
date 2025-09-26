@@ -2,6 +2,7 @@ public class BuddyInfo {
     String name;
     String address;
 
+    //Adding comment for lab3
     static final String basename = "Steve";
     static final String baseAddress = "Carleton";
 
