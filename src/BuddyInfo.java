@@ -3,15 +3,15 @@ public class BuddyInfo {
     String address;
 
     static final String basename = "Steve";
-    static final String baseadd = "Carleton";
+    static final String baseaddress = "Carleton";
 
     public BuddyInfo() {
         this.name = basename;
-        this.address = baseadd;
+        this.address = baseaddress;
     }
 
-    public BuddyInfo(String namey, String add) {
-        this.name = namey;
+    public BuddyInfo(String named, String add) {
+        this.name = named;
         this.address = add;
     }
 
