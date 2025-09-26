@@ -10,7 +10,7 @@ public class AddressBook {
     }
 
     public AddressBook(){
-        this.buddies = new ArrayList<BuddyInfo>();
+        this.buddies = new ArrayList<>();
     }
 
     public void addBuddy(BuddyInfo pal){
